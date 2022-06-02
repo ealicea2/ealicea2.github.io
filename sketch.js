@@ -1,6 +1,6 @@
 
 function setup() {
-  createCanvas(1440, 800);
+  createCanvas(1440, 500);
   background(41, 47, 54);
 
 myFont = loadFont('Dosis-Light.ttf');
@@ -11,9 +11,9 @@ function draw() {
 
 
 
-  // for(var x = 100; x < width; x = x + 100){
-  //   ellipse(x,100,30,30);
-  //
+for(var x = 20; x < width; x = x + 40){
+  ellipse(x,120,10,10); }
+
 
   fill(255, 107, 107);
   textSize(55);
@@ -31,25 +31,24 @@ function draw() {
 
   fill(255, 230, 109);
   textSize(35);
-  text('Projects', 25, 200);
+  text('Projects', 25, 400);
 
   textSize(35);
-  text('Experience', 325, 200);
+  text('Experience', 25, 200);
 
   fill(247, 255, 247);
   textSize(22);
-  text('-  Girls Who Code', 325, 250);
-  text('-  Web Development Class', 325, 280);
+  text('-  Girls Who Code', 25, 250);
+  text('-  Web Development Class', 25, 280);
 
   fill(247, 255, 247);
-  textSize(15);
-  text('Paint in p5', 25, 400);
+  textSize(22);
+  text('Paint in p5', 650, 470);
 
-  textSize(15);
-  text('Burger Animation Clock', 25, 400);
+  textSize(22);
+  text('Burger Animation Clock', 100, 470);
 
-  textSize(15);
-  text('Sleep Animation', 25, 400);
+
 
 
 
